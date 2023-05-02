@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: montserrat;
+}
+
+.main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.img{
+    border-radius: 8px;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    width: 250px;
+    height: 400px;
+    
+}
+.text1{
+    font-size: 10px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text2 {
+    font-size: 14px;
+    font-family: Fraunces;
+    font-weight: 900;
+    word-spacing: 5px;
+    width: 200px;
+    color: hsl(228, 12%, 48);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+span {
+    font-size: 15px;
+    font-family: Fraunces;
+    color: hsl(228, 12%, 48%);
+    font-weight: 700;
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 8px;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.text3{
+    font-size: 14px;
+    font-weight: 900;
+    width: 250px;
+    color: hsl(228, 12%, 48%);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.text4 {
+    font-size: 20px;
+    font-family: Fraunces;
+    word-spacing: 15px;
+    margin-top: 20px;
+    color: hsl(158, 36%, 37%);
+    font-family: 700;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+footer {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
